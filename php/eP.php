@@ -22,7 +22,7 @@ $pswhas= password_hash($password, PASSWORD_DEFAULT);
 
 $ruta="../img";
 
-echo $_SESSION["foto"];;
+//echo $_SESSION["foto"];;
 if (!isset($nom)) {
 	$ruta=$_SESSION["foto"];
 }else{
